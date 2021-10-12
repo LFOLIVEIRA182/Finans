@@ -56,10 +56,10 @@
                             <p>
                              Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.
                             </p>
-
-                            <form class="mt-4 mb-4">
+                            <!--form email newsletters-->
+                            <form class="mt-4 mb-4" action="./php/enviar.php" method="post">
                                 <div class="input-group input-group-sm">
-                                  <input type="text" placeholder="Seu e-mail" class="form-control">
+                                  <input id="email" name="email" type="email" placeholder="Your email" class="form-control">
                                   <div class="input-group-sm">
                                     <button type="button" type="button" class="btn btn-primary">Cadastre-se</button>
                                   </div>
@@ -178,6 +178,7 @@
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="js/bootstrap.min.js"></script>
+        
 
    
     </body>
