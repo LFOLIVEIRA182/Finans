@@ -10,7 +10,16 @@
 	border-bottom: 1px solid #e5e5e5;
 }
 
+#btn-conf:hover {
+	color: #21f0e5 !important;
+}
+
 footer p a {
 	margin: 5px 15px;
 }
 
+.imagem:hover{
+background-color: #21f0e5 !important;
+border-bottom-left-radius: 0.75em !important;
+border-top-right-radius: 0.75em !important;
+}
